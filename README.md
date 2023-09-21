@@ -50,23 +50,30 @@ Here's to a thrilling Hacktoberfest voyage with us! 🎉
 Code Coverage
 ![Statements](https://img.shields.io/badge/statements-97.74%25-brightgreen.svg?style=flat) ![Branches](https://img.shields.io/badge/branches-95%25-brightgreen.svg?style=flat) ![Functions](https://img.shields.io/badge/functions-94.2%25-brightgreen.svg?style=flat) ![Lines](https://img.shields.io/badge/lines-97.74%25-brightgreen.svg?style=flat)
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Additional Steps](#additional-steps)
-  - [Node.js \<= 18](#nodejs--18)
-  - [React Native](#react-native)
-  - [Usage in Browser:](#usage-in-browser)
-    - [Vanilla HTML / JS](#vanilla-html--js)
-    - [Webpack \>= 5](#webpack--5)
-    - [Vite](#vite)
-    - [esbuild](#esbuild)
-- [Usage](#usage)
-- [Release/Build Process](#releasebuild-process)
-  - [Stable Build](#stable-build)
-  - [Unstable Build](#unstable-build)
-- [Some projects that use this library:](#some-projects-that-use-this-library)
-- [Architecture](#architecture)
-- [Project Resources](#project-resources)
+- [🎉 **We're participating in Hacktoberfest 2023!** 🎉](#-were-participating-in-hacktoberfest-2023-)
+  - [**Hacktoberfest Guidelines:**](#hacktoberfest-guidelines)
+  - [**What is Hacktoberfest?**](#what-is-hacktoberfest)
+  - [**New Contributor? Welcome!** 🌟](#new-contributor-welcome-)
+  - [Introduction](#introduction)
+  - [Running online environment](#running-online-environment)
+  - [Installation](#installation)
+  - [Additional Steps](#additional-steps)
+    - [Node.js \<= 18](#nodejs--18)
+    - [React Native](#react-native)
+    - [Usage in Browser:](#usage-in-browser)
+      - [Vanilla HTML / JS](#vanilla-html--js)
+      - [Webpack \>= 5](#webpack--5)
+      - [Vite](#vite)
+      - [esbuild](#esbuild)
+  - [Usage](#usage)
+    - [Custom Tenant Gating](#custom-tenant-gating)
+    - [Custom Signature Signer](#custom-signature-signer)
+  - [Release/Build Process](#releasebuild-process)
+    - [Stable Build](#stable-build)
+    - [Unstable Build](#unstable-build)
+  - [Some projects that use this library:](#some-projects-that-use-this-library)
+  - [Architecture](#architecture)
+  - [Project Resources](#project-resources)
 
 
 ## Introduction
@@ -76,6 +83,12 @@ This repository contains a reference implementation of Decentralized Web Node (D
 This project is used as a dependency by several other projects.
 
 Proposals and issues for the specification itself should be submitted as pull requests to the [spec repo](https://github.com/decentralized-identity/decentralized-web-node).
+
+## Running online environment
+
+Interested in contributing instantly? You can make your updates directly without cloning in the running CodeSandbox environment.
+
+[![Edit in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/TBD54566975/dwn-sdk-js/tree/main)
 
 ## Installation
 
